@@ -1,0 +1,76 @@
+*{
+    font-family: "Playwrite AR", cursive; 
+    color: white;  
+    
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../img/background1.jpg);
+    background-attachment: fixed;  
+    position: absolute;
+}
+h1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    
+}
+
+.foto{
+    display: flex;
+    padding: 5%;
+    margin: auto;
+
+}
+
+main{
+    display: flex;
+    margin: 5% 20%;
+    padding: auto;
+    flex-direction: column;
+}
+
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(18, 18, 143);
+    opacity: 0.9;    
+    font-size: large;
+    padding: 40px;
+    margin: 20px 100px;
+    color: white;
+    border-radius: 20px; 
+    flex-wrap: nowrap;
+    
+    
+}
+
+p{
+    text-align: center;
+}
+
+.bloco2{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(18, 18, 143);
+    opacity: 0.9;
+    text-align:left;    
+    font-size: large;
+    padding: 40px;
+    margin: 20px 100px;
+    color: white;
+    border-radius: 20px; 
+}
+
+a{
+    text-decoration: none;
+}
+
