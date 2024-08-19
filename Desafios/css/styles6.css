@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dela+Gothic+One&family=New+Amsterdam&family=Playwrite+AR:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1.5rem;
+}
+
+body{
+display: flex;
+background-color: purple;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    margin: auto;
+    padding: 9%;
+    background-color: aquamarine;
+}
+
+h1{
+    display: flex;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+p{
+    display: flex;
+    padding: 2%;
+    text-align: justify;
+}
+
+ul{
+    margin-top: 5%;
+}
